@@ -1,0 +1,3 @@
+// WhatsApp: código de país + área + número, solo dígitos. Ejemplo AR: 549…
+// Dejar vacío mantiene la demostración sin enviar a ningún comercio.
+const CONFIG = {whatsapp: '', address: 'Calle Lateral 4321', openingHour: 8, closingHour: 20, openDays: [1,2,3,4,5,6]};

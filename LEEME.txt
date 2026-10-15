@@ -1,0 +1,44 @@
+EL NUEVO KIWICHITO — kiwichitodos.energyfan.top
+
+Subí el contenido de este ZIP al directorio del subdominio. index.html queda
+junto a styles.css, app.js, config.js, products.js y la carpeta images.
+No requiere instalación, Node ni bases de datos para esta demostración.
+La versión anterior de Kiwichito no fue modificada.
+
+CONFIGURACIÓN
+WhatsApp real en config.js: solo dígitos, formato internacional 549… para AR.
+Precios, nombres, unidades y pasos en products.js.
+Dirección, historia y texto de horario en index.html; horario operativo en config.js.
+Precios y combos son de ejemplo. El combo Rebajado no aplica descuento todavía.
+Todos los combos muestran el total calculado de los productos; se ajustan desde
+COMBOS al final de app.js. Los productos se pueden modificar luego de sumar un combo.
+El presupuesto filtra combos y evita sumar uno que supere el monto con el carrito actual;
+no impide que el usuario agregue productos sueltos por encima de su presupuesto.
+
+DISEÑO
+30 productos, fotos y logo incluidos. Encargada fija a la derecha en computadora.
+El panel translúcido sobre el delantal aparece con el primer producto y desaparece
+si todo queda en cero. Una lista larga se desplaza dentro del panel.
+Productos elegidos: control verde, subtotal oscuro y dos marcas de selección.
+En celular la foto se coloca después del catálogo para no reducir su ancho.
+Fotos extraídas de las maquetas: algunas son pequeñas. Se recomienda reemplazar
+por originales de mayor resolución para una versión comercial definitiva.
+El retrato generado es una ilustración fotográfica de una encargada ficticia.
+Bordes orgánicos hechos en CSS: aproximan el papel rasgado de la maqueta.
+La perspectiva de bananas y tomates sigue la foto base; no reproduce exactamente
+la nueva toma del estudio visual.
+
+FUNCIONES
+Cantidades y subtotales automáticos, filtros, búsqueda, combos, presupuesto,
+efectivo/transferencia, envío/retiro, aclaraciones, copiar pedido y WhatsApp.
+Repetir pedido recupera cantidades guardadas al copiar o preparar WhatsApp,
+con precios actuales, solo en ese navegador. No confirma una venta realizada.
+Preferencias se guardan SOLO LOCALMENTE: no son enviadas al comerciante.
+No hay aún panel del dueño, recepción de feedback ni registro de pedidos en servidor.
+No se realiza ningún pago dentro de la página. El cliente envía el mensaje desde WhatsApp.
+
+VERSIÓN COMPACTA
+Encabezado y herramientas compactos. Panel sobre delantal con texto más grande.
+Barra inferior visible solo en pantallas de 950 px o menos. En pantallas grandes
+se usa el panel de la encargada. La lista tiene scroll cuando supera su espacio.
+Se puede subir a cualquier subdominio: todos los recursos usan rutas relativas.
